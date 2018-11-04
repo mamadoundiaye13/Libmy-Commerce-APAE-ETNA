@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+       <link rel="stylesheet" type="text/css" href="login.css">
+       <link rel="stylesheet" media="screen and (max-width: 1280px)" href="moyen_resolution.css" /> <!-- Pour ceux qui ont une résolution inférieure à 1280px --> 
+       <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" /> <!-- Pour ceux qui ont une résolution inférieure à 1280px -->
+    <meta charset="utf-8">
+    <title>register</title>
+  </head>
+  <body>
+      <!-- Modal Content -->
+    <form class="modal-content animate" action="/action_page.php">
+      <div class="name">
+        <a href="login.html" title="Reception !" >
+          <img src="https://raw.githubusercontent.com/mamadoundiaye13/Libmy-Commerce-APAE-ETNA/master/Skype_Picture.jpeg" alt="Logo_Africa Store" title="Accueil" id="logo"/>
+        </a>
+      </div>
+
+    <div class="container">
+        <h3>Creating an account is simple. Simply fill out the form below to enjoy the benefits of a customer account  </h3>
+    </div>
+      <fieldset>
+        <legend>Create an account </legend>
+
+        <div class="container">
+          <input type="text" placeholder="Enter Name" name="Name" required>
+        </div>
+
+        <div class="container">
+          <input type="email" placeholder="Enter Mail" name="mail" required>
+        </div>
+
+        <div class="container">
+          <input type="password" placeholder="Enter Password" name="psw" pattern=".{8,}" required title="8 caractères minimum">
+        </div>
+
+        <div class="container">
+          <input type="password" placeholder="Enter confirmation password" name="psw" pattern=".{8,}" required title="8 caractères minimum">
+        </div>
+
+        <div class="container">
+          <button type="submit">Sign up</button>
+        </div>
+      </fieldset>
+      </form>
+
+  </body>
+</html>

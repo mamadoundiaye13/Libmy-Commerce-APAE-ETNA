@@ -1,0 +1,428 @@
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 100px et 100000px */
+@media all and (min-width: 0px) and (max-width: 800px)
+{
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        padding-top: 40px;
+    }
+
+
+      section h2{
+        font-size: 13px;
+        position: relative;
+        bottom: 3px;
+        right: 70px;
+      }
+
+    .mentionscgv ul li img{
+      width: 30px;
+      height: 30px;
+    }
+
+
+    .Panier{
+        background-color: #eeeeee;
+
+        margin-left: 60px;
+        height: 800px;;
+        width: 90%;
+    }
+
+
+    .Panier table {
+    border-collapse:collapse;
+    margin-top: 150px;
+    width: 100%;;
+    height: 200px;
+    }
+
+    .Panier td, th {
+      border: 1.5px solid #6495ed;
+      width: 35%;
+    }
+
+    h3{
+      text-align: center;
+      text-decoration: none;
+    }
+
+
+    legend{
+      font-size: 25px;
+    }
+
+    table{
+      width: 7px;
+    }
+
+
+
+    .container{
+      margin: 30px auto;
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 3px auto; /* 15% from the top and centered */
+        width: 80%; /* Could be more or less, depending on screen size */
+    }
+
+    /* The Close Button */
+    .close {
+        /* Position it in the top right corner outside of the modal */
+        position: absolute;
+        top: 0;
+        right: 20px;
+        color: #000000;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    /* Close button on hover */
+    .close:hover,
+    .close:focus {
+        color: red;
+        cursor: pointer;
+    }
+
+    /* Add Zoom Animation */
+    .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s
+    }
+
+
+    .stockage {
+    		vertical-align: top;
+    		display: inline;
+    		position: relative;
+        top: 0;
+    }
+
+
+    .name{
+    	border: 3px;
+    	float: left;
+      width: 5px;
+    	min-width: 50px;
+      font-size: 10px;
+    }
+
+    .name p{
+      font : oblique 10px Arial, Helvetica, sans-serif;
+      font-style: oblique;
+      font-stretch: ultra-condensed;
+      color: inherit;
+      color: white;
+    }
+
+    .name a img{
+
+      width: 50px;
+      height: 70px;
+      margin: 0px;
+      margin-left: 0px;
+      opacity: 0.9;
+    }
+
+    .lien{
+    		font-size: 10px;
+        justify-content: flex-start;
+        flex-direction: row;
+        display: flex;
+        border-left: 1px solid #333333;
+      }
+
+    .username li a{
+    		border: 5px;
+        padding: 5px;
+    		display: inline;
+        width: 30px;
+    		float: right;
+        font-size: 10px;
+        color: #FFFFFF;
+        text-decoration:none;
+        text-transform:uppercase;
+
+
+    }
+
+    .lien form{
+      background-color: #37475a;
+    }
+
+    nav ul{
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px;
+      background-color: #37475a;
+      margin-top:0px;
+      float:left;
+      margin-right:10px;
+
+    }
+
+
+    .catalogue{
+      background-color: #eeeeee;
+      width: 100%;
+    }
+
+    nav li {
+      display:inline-block;
+      padding: 5px;
+      margin: 0px;
+      text-align: center;
+      line-height: 10px;
+    }
+
+
+    nav li a{
+      display: inline;
+      text-decoration: none;
+      color: #FFFFFF;
+      font-weight:100;
+      text-transform:uppercase;
+      font-size:10px;
+      padding:0px;
+      text-decoration:none;
+      margin:2px;
+    }
+
+    nav li:hover{
+      box-shadow:0 2px 5px #1c1a19;
+    }
+
+
+      .container nav li {
+        display:inline;
+        padding: 1px;
+        margin: 0px;
+        text-align: center;
+        line-height: 10px;
+      }
+
+
+      .container nav li a{
+        display: inline;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight:100;
+        text-transform:uppercase;
+        font-size:12px;
+        padding:1px;
+        text-decoration:none;
+        margin:2px;
+      }
+
+      .container nav ul{
+        border-radius: 10px;
+
+      }
+
+      .container nav{
+        margin-left: 100px;
+        margin-top: -30px;
+      }
+
+    table form{
+      background-color: #eeeeee;
+    }
+    body {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4qqJteE5Se_2zMXADFi7TBEFJi1-uGXlZkF6HgA_OYcy9x-0_tw");
+     		font-family:Verdana , Arial;
+     		font-size: 14px;
+     		opacity: 0.9;
+     }
+
+    form , .bloc {
+    		background-color:#FAFAFA;
+     		padding:50px;
+     		width:80%;
+    	}
+
+
+    section h2{
+      text-align: center;
+      float: left;
+      display: block;
+      padding-bottom: 10px;
+
+
+    }
+
+    h2 {
+      		font-weight: #000;
+      		display: inline-block;
+      		padding-bottom: 10px;
+      		position: relative;
+      		border-bottom:10px solid black;
+      		width: 100%;
+    }
+
+
+    	label {
+     		margin-top:60px;
+     		display: block;
+     		text-transform: uppercase;
+     	}
+
+    	input[type=mail] , input[type=number] , input[type=date] , textarea , select {
+      		border: 0px dotted #999;
+      		border-radius: 0;
+      		font-weight: #000;
+      		display: inline-block;
+      		padding-bottom: 5px;
+      		position: relative;
+      		border-bottom:3px solid black;
+      		width: 100%;
+    	   -webkit-appearance: none;
+    	}
+
+    	.civilite {
+     		display:inline;
+     		width: 10px;
+     		min-width: 100px;
+     		text-align: center;
+    	}
+
+    	.monsieur{
+    		text-align: center;
+    		display: inline;
+    	}
+
+    	.ok{
+    		float: left;
+    		display:inline;
+    	}
+
+
+    	.madame{
+    	float: right;
+    	display:inline;
+    	}
+
+    	footer{
+    		width: 100%;
+    		height: 100px;
+    		overflow: hidden;
+        position: fixed;
+        background-color: #37475a;
+        margin: 0px;
+        margin-bottom: 0px;
+        display: block;
+        bottom: 0px;
+        overflow:auto;
+        vertical-align: top;
+    	}
+    header{
+      width: 100%;
+      height: 100px;
+      background-color: #37475a;
+      margin: 0px;
+      margin-top: 0px;
+      display: block;
+      bottom: 0px;
+      overflow:auto;
+      position: relative;
+      vertical-align: top;
+      top: 0px;
+    }
+    	.mentionscgv{
+    		display: inline-block;
+    		text-align: center;
+    		font: 14px Arial;
+    		width: 90%;
+    		height: 70px;
+    		vertical-align: top;
+    	}
+
+    .bloc_cata{
+      width: 50px;
+      float: left;
+    }
+    	.mentionscgv a{
+    		text-decoration: underline;
+    		color: white;
+    		text-align: center;
+    	}
+
+      .mentionscgv a img{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        float: right;
+        padding: 2px;
+        border-left: 1px solid #333333;
+
+      }
+
+    	.sociaux{
+    		display: inline-block;
+    		text-align: center;
+    		width: 50%;
+    		margin-left: 50%;
+    		vertical-align: top;
+    	}
+
+
+    section{
+        	margin-left: 100%;
+        	margin-left: 60%;
+        	display: inline-block;
+        }
+    section button {
+      margin-left: -60%;
+    }
+
+    	.zoom {
+    		height:300px;
+    		margin:auto;
+    	}
+
+    	.zoom img {
+    		width:100px;
+    		height:100px;
+    	}
+
+
+    	.zoom img:hover {
+     		cursor: pointer;
+     		width:120px;
+     		height:150px;
+     		transition: all 3s ease;
+    	}
+
+
+      	.zoom_produit {
+      		height:400px;
+      	}
+
+      	.zoom_produit img {
+      		width:200px;
+      		height:200px;
+      	}
+
+
+      	.zoom_produit img:hover {
+       		cursor: pointer;
+       		width:250px;
+       		height:250px;
+       		transition: all 3s ease;
+      	}
+
+    .bouton{
+      text-align: center;
+    }
+}
